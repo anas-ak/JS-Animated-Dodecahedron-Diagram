@@ -1,0 +1,29 @@
+:root {
+    --sq: 500px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+
+canvas {
+    height: auto;
+    width: var(--sq);
+}
+
+.container {
+    
+    height: var(--sq);
+    text-align: center;
+    width: var(--sq);
+}
